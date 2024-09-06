@@ -10,11 +10,11 @@ import {
   periodeBulan,
 } from "@/utils/dataUmrohCustom";
 import { formatRupiah } from "@/utils/formatRupiah";
-import React, { useState } from "react";
+import React, { Dispatch, useState } from "react";
 import DetailPage from "../detailPage";
 
 const HomePage = () => {
-  const [modalSimpan, setModalSimpan] = useState(false);
+  const [modalSimpan, setModalSimpan] = useState<any>(false);
   const [selectedItem, setSelectedItem] = useState<{
     name: string;
     harga: number;

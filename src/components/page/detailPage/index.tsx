@@ -4,7 +4,7 @@ import { useReactToPrint } from "react-to-print";
 
 type propsTypes = {
   data: any;
-  setModalSimpan?: any;
+  setModalSimpan: any;
 };
 
 const DetailPage = (props: propsTypes) => {
