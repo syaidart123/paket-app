@@ -10,12 +10,11 @@ import { formatRupiah } from "@/utils/formatRupiah";
 import React, { useState, useEffect } from "react";
 
 type propstype = {
-  penginapan: any;
   setPenginapan: any;
 };
 
 const Penginapan = (props: propstype) => {
-  const { penginapan, setPenginapan } = props;
+  const { setPenginapan } = props;
   const [selectedBintang, setSelectedBintang] = useState("");
   const [selectedHotel, setSelectedHotel] = useState("");
   const [selectedVendor, setSelectedVendor] = useState("");

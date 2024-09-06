@@ -10,7 +10,7 @@ import {
   periodeBulan,
 } from "@/utils/dataUmrohCustom";
 import { formatRupiah } from "@/utils/formatRupiah";
-import React, { Dispatch, useState } from "react";
+import React, { useState } from "react";
 import DetailPage from "../detailPage";
 
 const HomePage = () => {
@@ -291,7 +291,7 @@ const HomePage = () => {
             type={"number"}
           />
           <p className="my-5 text-xl font-bold p-2 border-t ">Penginapan</p>
-          <Penginapan penginapan={penginapan} setPenginapan={setPenginapan} />
+          <Penginapan setPenginapan={setPenginapan} />
           <p className="my-5 text-xl font-bold p-2 border-t ">Jasa Handling</p>
           <div>
             <Select
